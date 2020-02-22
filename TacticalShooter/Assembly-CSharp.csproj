@@ -71,6 +71,7 @@
     <Compile Include="Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
     <Compile Include="Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+    <Compile Include="Assets\Characters\CivilianScripts\FollowPlayer.cs" />
     <Compile Include="Assets\Characters\EnemyScripts\HuntRoutine.cs" />
     <Compile Include="Assets\Characters\EnemyScripts\PatrolRoutine.cs" />
     <Compile Include="Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />

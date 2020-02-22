@@ -2145,6 +2145,7 @@ GameObject:
   - component: {fileID: 3845960062906993729}
   - component: {fileID: 4500810627184834687}
   - component: {fileID: 3345115381849076511}
+  - component: {fileID: 1566376500314876628}
   m_Layer: 0
   m_Name: Rin Prefab
   m_TagString: Untagged
@@ -2239,6 +2240,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1566376500314876628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599452214353238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8c525a2a301ca45bb906c2a58b0980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1604869888240376
 GameObject:
   m_ObjectHideFlags: 0

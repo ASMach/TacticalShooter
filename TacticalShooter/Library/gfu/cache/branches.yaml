@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-02-21T22:27:29.626-08:00
-  initializedAtString: 2020-02-21T22:27:29.578-08:00
+  lastUpdatedAtString: 2020-02-21T23:10:20.406-08:00
+  initializedAtString: 2020-02-21T23:10:20.302-08:00
   localBranches:
   - name: development
     tracking: 
-  - name: master
-    tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
@@ -34,18 +32,12 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - development
-    - master
     values:
     - name: development
       remote:
         name: 
         url: 
       trackingBranch: 
-    - name: master
-      remote:
-        name: origin
-        url: https://github.com/ASMach/TacticalShooter.git
-      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin

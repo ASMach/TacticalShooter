@@ -2596,6 +2596,7 @@ GameObject:
   - component: {fileID: 5984855143478428861}
   - component: {fileID: 8040718430650565864}
   - component: {fileID: 4126987428908333703}
+  - component: {fileID: 3502658045680853670}
   m_Layer: 0
   m_Name: Yuna Prefab
   m_TagString: Untagged
@@ -2690,6 +2691,18 @@ CapsuleCollider:
   m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!114 &3502658045680853670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896312516575510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8c525a2a301ca45bb906c2a58b0980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1916517998028904
 GameObject:
   m_ObjectHideFlags: 0
