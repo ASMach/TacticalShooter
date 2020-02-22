@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{6342EE5E-83AD-19E6-A436-64E59470B1AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,40 +63,173 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\Cameras\Scripts\AutoCam.cs" />
+    <Compile Include="Assets\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\Cameras\Scripts\HandHeldCam.cs" />
+    <Compile Include="Assets\Cameras\Scripts\LookatTarget.cs" />
+    <Compile Include="Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+    <Compile Include="Assets\Characters\EnemyScripts\HuntRoutine.cs" />
+    <Compile Include="Assets\Characters\EnemyScripts\PatrolRoutine.cs" />
+    <Compile Include="Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+    <Compile Include="Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets\Characters\Yuna 3d - Anime Style\Demo\Scripts\UIManager.cs" />
+    <Compile Include="Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\Environment\Water\Water4\Scripts\GerstnerDisplaceEditor.cs" />
+    <Compile Include="Assets\Environment\Water\Water4\Scripts\PlanarReflectionEditor.cs" />
+    <Compile Include="Assets\Environment\Water\Water4\Scripts\SpecularLightingEditor.cs" />
+    <Compile Include="Assets\Environment\Water\Water4\Scripts\WaterBaseEditor.cs" />
+    <Compile Include="Assets\Environment\Water\Water4\Scripts\WaterEditorUtility.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\FireLight.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+    <Compile Include="Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\TiltWindow.cs" />
     <Compile Include="Assets\Tutorial_Info\Scripts\Readme.cs" />
+    <Compile Include="Assets\Utility\ActivateTrigger.cs" />
+    <Compile Include="Assets\Utility\AlphaButtonClickMask.cs" />
+    <Compile Include="Assets\Utility\AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets\Utility\AutoMoveAndRotate.cs" />
+    <Compile Include="Assets\Utility\CameraRefocus.cs" />
+    <Compile Include="Assets\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\Utility\DragRigidbody.cs" />
+    <Compile Include="Assets\Utility\DynamicShadowSettings.cs" />
+    <Compile Include="Assets\Utility\EventSystemChecker.cs" />
+    <Compile Include="Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\Utility\FPSCounter.cs" />
+    <Compile Include="Assets\Utility\FollowTarget.cs" />
+    <Compile Include="Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Utility\ObjectResetter.cs" />
+    <Compile Include="Assets\Utility\ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets\Utility\PlatformSpecificContent.cs" />
+    <Compile Include="Assets\Utility\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\Utility\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\Utility\SmoothFollow.cs" />
+    <Compile Include="Assets\Utility\TimedObjectActivator.cs" />
+    <Compile Include="Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Utility\WaypointCircuit.cs" />
+    <Compile Include="Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Waypoints\EditorVisible.cs" />
+    <None Include="Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Characters\Yuna 3d - Anime Style\Advance Unlit Shader\Advance Unlit.shader" />
+    <None Include="Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Menus\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\Characters\Yuna 3d - Anime Style\ReadMe!.txt" />
+    <None Include="Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Environment\Water (Basic)\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Environment\Water\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Characters\Rin 3d - Anime Style\ReadMe!.txt" />
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/macht/Documents/GitHub/TacticalShooter/TacticalShooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
