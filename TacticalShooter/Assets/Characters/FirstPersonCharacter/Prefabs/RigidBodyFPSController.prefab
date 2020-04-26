@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
+  - component: {fileID: 6545095374555814272}
   m_Layer: 9
   m_Name: RigidBodyFPSController
   m_TagString: Player
@@ -299,3 +300,16 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &6545095374555814272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dac4f6c7a9c27c4ea02d92991cbb5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100

@@ -27,6 +27,7 @@ public class FollowPlayer : MonoBehaviour
         }
         if (follow)
         {
+            Debug.Log("Following player");
             agent.destination = player.transform.position;
         }
     }

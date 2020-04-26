@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-21T23:27:00.543-08:00
-  initializedAtString: 2020-02-21T23:01:49.182-08:00
+  lastUpdatedAtString: 2020-04-26T13:27:23.943-07:00
+  initializedAtString: 2020-04-26T13:27:23.943-07:00
   entries:
   - path: TacticalShooter\Assembly-CSharp.csproj
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assembly-CSharp.csproj
@@ -22,16 +22,41 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TacticalShooter\Assembly-CSharp-Editor.csproj
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TacticalShooter\Assets\Characters\CivilianScripts\FollowPlayer.cs
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assets\Characters\CivilianScripts\FollowPlayer.cs
     projectPath: Assets\Characters\CivilianScripts\FollowPlayer.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Assets\Characters\FirstPersonCharacter\Prefabs\RigidBodyFPSController.prefab
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assets\Characters\FirstPersonCharacter\Prefabs\RigidBodyFPSController.prefab
+    projectPath: Assets\Characters\FirstPersonCharacter\Prefabs\RigidBodyFPSController.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TacticalShooter\Assets\Characters\Rin 3d - Anime Style\Rin Prefab.prefab
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assets\Characters\Rin
       3d - Anime Style\Rin Prefab.prefab
     projectPath: Assets\Characters\Rin 3d - Anime Style\Rin Prefab.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Assets\Characters\Robot Kyle\Robot Kyle.prefab
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assets\Characters\Robot
+      Kyle\Robot Kyle.prefab
+    projectPath: Assets\Characters\Robot Kyle\Robot Kyle.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -42,15 +67,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TacticalShooter\Assets\Scripts\HealthState.cs
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Assets\Scripts\HealthState.cs
+    projectPath: Assets\Scripts\HealthState.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: TacticalShooter\Library\ArtifactDB
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TacticalShooter\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: TacticalShooter\Library\Artifacts\35\355c526dfe10593bd74eee96d4d22ccb
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\Artifacts\35\355c526dfe10593bd74eee96d4d22ccb
+    projectPath: Library\Artifacts\35\355c526dfe10593bd74eee96d4d22ccb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TacticalShooter\Library\Artifacts\6b\6ba116c278645f51334d174a57551ad0
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\Artifacts\6b\6ba116c278645f51334d174a57551ad0
+    projectPath: Library\Artifacts\6b\6ba116c278645f51334d174a57551ad0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TacticalShooter\Library\Artifacts\87\8756f4119460303681db196f334bfc4a
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\Artifacts\87\8756f4119460303681db196f334bfc4a
+    projectPath: Library\Artifacts\87\8756f4119460303681db196f334bfc4a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TacticalShooter\Library\Artifacts\97\97b3b29401628d24b549e5946f7e12af
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\Artifacts\97\97b3b29401628d24b549e5946f7e12af
+    projectPath: Library\Artifacts\97\97b3b29401628d24b549e5946f7e12af
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TacticalShooter\Library\Artifacts\e3\e38408c9c527ddb3f7531c7399e98d12
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\Artifacts\e3\e38408c9c527ddb3f7531c7399e98d12
+    projectPath: Library\Artifacts\e3\e38408c9c527ddb3f7531c7399e98d12
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: TacticalShooter\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -72,9 +133,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: TacticalShooter\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: TacticalShooter\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -96,27 +163,231 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TacticalShooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
     projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Polybrush.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Polybrush.dll
+    projectPath: Library\ScriptAssemblies\Unity.Polybrush.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+    projectPath: Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Settings.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ScriptMapper
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: TacticalShooter\Library\SourceAssetDB
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TacticalShooter\Library\StateCache\Hierarchy\af656c-68833d52a1ec6984b9.json
-    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\StateCache\Hierarchy\af656c-68833d52a1ec6984b9.json
-    projectPath: Library\StateCache\Hierarchy\af656c-68833d52a1ec6984b9.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: TacticalShooter\Library\StateCache\Hierarchy\af656c-mainStage.json
-    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\Library\StateCache\Hierarchy\af656c-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\af656c-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -129,6 +400,12 @@ MonoBehaviour:
   - path: TacticalShooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TacticalShooter\ProjectSettings\ProjectVersion.txt
+    fullPath: C:\Users\macht\Documents\GitHub\TacticalShooter\TacticalShooter\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

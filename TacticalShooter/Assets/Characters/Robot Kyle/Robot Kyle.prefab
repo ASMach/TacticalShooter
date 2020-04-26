@@ -1350,6 +1350,7 @@ GameObject:
   - component: {fileID: 3380903062243540956}
   - component: {fileID: 309445464083396822}
   - component: {fileID: 946812593158371625}
+  - component: {fileID: 908013167701496178}
   m_Layer: 0
   m_Name: Robot Kyle
   m_TagString: Untagged
@@ -1474,6 +1475,19 @@ CapsuleCollider:
   m_Height: 1.85
   m_Direction: 1
   m_Center: {x: 0, y: 0.925, z: 0}
+--- !u!114 &908013167701496178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7555210725251106057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dac4f6c7a9c27c4ea02d92991cbb5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &7850504670295969998
 GameObject:
   m_ObjectHideFlags: 0
